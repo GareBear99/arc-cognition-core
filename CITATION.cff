@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: Cognition Core Final Operator Ready Alpha
+authors:
+  - family-names: Doman
+    given-names: Gary
+affiliation: Independent
+message: "If you use this repository, please cite the project metadata in this file."
+abstract: >-
+  Production-hardened alpha cognition lab scaffold for building, evaluating,
+  shaping, and promoting GGUF-oriented cognition candidates using structured
+  doctrine, datasets, benchmarks, runtime adapters, and distillation sources.
+license: MIT
+version: 0.3.0
+repository-code: "https://github.com/GareBear99/cognition-core"
+keywords:
+  - gguf
+  - local-ai
+  - cognition-engine
+  - agentic-ai
+  - benchmarking
+  - software-engineering
