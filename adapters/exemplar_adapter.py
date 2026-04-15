@@ -38,10 +38,27 @@ class ExemplarAdapter(ModelAdapter):
             raise ValueError("artifact is required for exemplar adapter")
         self.artifact_path = Path(artifact)
         payload = json.loads(self.artifact_path.read_text(encoding="utf-8"))
+        if isinstance(payload, dict) and "records" not in payload:
+            self.artifact_path, payload = self._resolve_manifest_payload(self.artifact_path, payload)
         self.model = payload.get("candidate_id", self.artifact_path.stem)
         self.top_k = int(top_k)
         self.records: list[dict[str, Any]] = payload.get("records", [])
         self._vectors: list[Counter[str]] = [Counter(r.get("prompt_tokens", [])) for r in self.records]
+
+    def _resolve_manifest_payload(self, manifest_path: Path, payload: dict[str, Any]) -> tuple[Path, dict[str, Any]]:
+        candidates: list[Path] = []
+        output_file = payload.get("output_file")
+        if output_file:
+            candidates.append((manifest_path.parent / str(output_file)).resolve())
+        paths_artifact = payload.get("paths", {}).get("artifact") if isinstance(payload.get("paths"), dict) else None
+        if paths_artifact:
+            path_value = Path(str(paths_artifact))
+            candidates.append(path_value)
+            candidates.append((manifest_path.parent / path_value.name).resolve())
+        for candidate in candidates:
+            if candidate.exists():
+                return candidate, json.loads(candidate.read_text(encoding="utf-8"))
+        raise FileNotFoundError(f"could not resolve exemplar payload from manifest: {manifest_path}")
 
     def backend_identity(self) -> dict[str, Any]:
         return {
