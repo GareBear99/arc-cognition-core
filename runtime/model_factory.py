@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
+from adapters.command_adapter import CommandAdapter
 from adapters.echo_adapter import EchoAdapter
 from adapters.exemplar_adapter import ExemplarAdapter
 from adapters.heuristic_adapter import HeuristicAdapter
@@ -14,6 +15,10 @@ _ADAPTER_ALIASES = {
     "heuristic": "heuristic",
     "exemplar": "exemplar",
     "local_exemplar": "exemplar",
+    "command": "command",
+    "local_command": "command",
+    "llama_cli": "command",
+    "llamafile_direct": "command",
     "openai_compatible": "openai_compatible",
     "llamacpp_openai": "openai_compatible",
     "llamafile_openai": "openai_compatible",
@@ -23,6 +28,7 @@ _ADAPTER_ALIASES = {
 
 
 _ADAPTERS = {
+    "command": CommandAdapter,
     "echo": EchoAdapter,
     "heuristic": HeuristicAdapter,
     "exemplar": ExemplarAdapter,

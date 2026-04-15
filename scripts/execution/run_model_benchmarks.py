@@ -23,6 +23,11 @@ def main() -> None:
     parser.add_argument("--endpoint", default=None)
     parser.add_argument("--model", default=None)
     parser.add_argument("--artifact", default=None)
+    parser.add_argument("--command-template", default=None)
+    parser.add_argument("--timeout-seconds", type=float, default=None)
+    parser.add_argument("--first-output-timeout-seconds", type=float, default=None)
+    parser.add_argument("--idle-timeout-seconds", type=float, default=None)
+    parser.add_argument("--max-output-bytes", type=int, default=None)
     parser.add_argument("--top-k", type=int, default=3)
     args = parser.parse_args()
 
@@ -33,6 +38,16 @@ def main() -> None:
         build_kwargs["model"] = args.model
     if args.artifact:
         build_kwargs['artifact'] = args.artifact
+    if args.command_template:
+        build_kwargs['command_template'] = args.command_template
+    if args.timeout_seconds is not None:
+        build_kwargs['timeout_seconds'] = args.timeout_seconds
+    if args.first_output_timeout_seconds is not None:
+        build_kwargs['first_output_timeout_seconds'] = args.first_output_timeout_seconds
+    if args.idle_timeout_seconds is not None:
+        build_kwargs['idle_timeout_seconds'] = args.idle_timeout_seconds
+    if args.max_output_bytes is not None:
+        build_kwargs['max_output_bytes'] = args.max_output_bytes
     if args.adapter in {'exemplar', 'local_exemplar'} and args.top_k:
         build_kwargs['top_k'] = args.top_k
     adapter = build_adapter(args.adapter, **build_kwargs)
@@ -71,6 +86,7 @@ def main() -> None:
                     "ok": bool(response.ok) if response is not None else False,
                     "error": error,
                     "latency_ms": response.latency_ms if response and response.latency_ms is not None else latency_ms,
+                    "finish_reason": response.finish_reason if response is not None else 'failed',
                     "output_text": response.text if response is not None else "",
                     "meta": response.meta if response is not None else {"adapter": args.adapter},
                     "backend_identity": response.backend_identity if response is not None else None,

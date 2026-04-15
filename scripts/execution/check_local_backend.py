@@ -17,6 +17,12 @@ def main() -> None:
     parser.add_argument('--adapter', default='heuristic')
     parser.add_argument('--endpoint', default=None)
     parser.add_argument('--model', default=None)
+    parser.add_argument('--artifact', default=None)
+    parser.add_argument('--command-template', default=None)
+    parser.add_argument('--timeout-seconds', type=float, default=None)
+    parser.add_argument('--first-output-timeout-seconds', type=float, default=None)
+    parser.add_argument('--idle-timeout-seconds', type=float, default=None)
+    parser.add_argument('--max-output-bytes', type=int, default=None)
     parser.add_argument('--require-live-backend', action='store_true')
     parser.add_argument('--smoke-prompt', default='Reply with the single word READY.')
     args = parser.parse_args()
@@ -26,6 +32,18 @@ def main() -> None:
         build_kwargs['endpoint'] = args.endpoint
     if args.model:
         build_kwargs['model'] = args.model
+    if args.artifact:
+        build_kwargs['artifact'] = args.artifact
+    if args.command_template:
+        build_kwargs['command_template'] = args.command_template
+    if args.timeout_seconds is not None:
+        build_kwargs['timeout_seconds'] = args.timeout_seconds
+    if args.first_output_timeout_seconds is not None:
+        build_kwargs['first_output_timeout_seconds'] = args.first_output_timeout_seconds
+    if args.idle_timeout_seconds is not None:
+        build_kwargs['idle_timeout_seconds'] = args.idle_timeout_seconds
+    if args.max_output_bytes is not None:
+        build_kwargs['max_output_bytes'] = args.max_output_bytes
 
     adapter = create_adapter(args.adapter, **build_kwargs)
     health = adapter.healthcheck()
@@ -36,7 +54,7 @@ def main() -> None:
             smoke = adapter.smokecheck(prompt=args.smoke_prompt)
         else:
             response = adapter.generate(args.smoke_prompt, system_prompt='You are a backend smokecheck agent.')
-            smoke = {'ok': response.ok and bool(response.text.strip()), 'text': response.text[:120], 'error': response.error, 'latency_ms': response.latency_ms}
+            smoke = {'ok': response.ok and bool(response.text.strip()), 'text': response.text[:120], 'error': response.error, 'latency_ms': response.latency_ms, 'finish_reason': response.finish_reason}
         ok = ok and bool(smoke.get('ok'))
 
     if args.require_live_backend and getattr(adapter, 'promotable', True) is False:
