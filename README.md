@@ -1,6 +1,6 @@
-# Cognition Core
+# ARC Cognition Core
 
-Cognition Core is a **local-first cognition lab and runtime control plane** for building, benchmarking, and promoting GGUF-oriented cognition candidates.
+ARC Cognition Core is a **local-first cognition lab and runtime control plane** for building, benchmarking, and promoting GGUF-oriented cognition candidates.
 
 Its final runtime doctrine is:
 - **no server required**
