@@ -8,3 +8,4 @@
 {"run_id": "gate_b7746c243b2c", "model_name": "candidate_v1", "adapter": "heuristic", "prompt_profile": "minimal_doctrine", "report": "reports/full_candidate_gate_report.json", "ok": false}
 {"run_id": "gate_3c3f0c7d4d92", "model_name": "candidate_v1", "adapter": "heuristic", "prompt_profile": "minimal_doctrine", "report": "reports/full_candidate_gate_report.json", "ok": false}
 {"run_id": "gate_7bf0c41ca8a4", "model_name": "candidate_v1", "adapter": "heuristic", "prompt_profile": "minimal_doctrine", "report": "reports/full_candidate_gate_report.json", "ok": true}
+{"run_id": "gate_15121604d1ed", "model_name": "candidate_v1", "adapter": "heuristic", "prompt_profile": "minimal_doctrine", "report": "reports/full_candidate_gate_report.json", "ok": true}

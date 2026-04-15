@@ -1,22 +1,22 @@
 {
   "results": [
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "cal_bench_001",
       "benchmark_name": "calibration",
       "capability": "calibration",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.81,
+      "latency_ms": 0.49,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: calibration\nState what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/INGESTION_PLAN.md: Ingestion Plan v5 | Ingestion doctrine | Supported file formats in v5 | Import order | Why this matters\nSupporting patterns:\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/comprehensive-production-audit.md: Arc-RAR Comprehensive Production Audit | Executiv\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/POLICY_AND_EVIDENCE.md: Policy + Evidence Layer | v18 adds three operatio\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1348,
@@ -38,7 +38,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 4,
       "normalized_score": 0.6667,
       "notes": "Scored against capability=calibration with 3 rubric fields. Matched 4 of 6 checks.",
@@ -57,22 +57,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "cal_bench_002",
       "benchmark_name": "calibration",
       "capability": "calibration",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.64,
+      "latency_ms": 0.28,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: calibration\nState what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/ARCHITECTURE.md: Architecture | Core layers | Storage pattern | Detection pipeline | Speech architecture | Speech output is deliberately downstream:\nSupporting patterns:\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/docs/architecture.md: Architecture\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/architecture.md: Architecture | Arc-RAR is split into five layers: | Core principle \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.2725,
@@ -94,7 +94,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 5,
       "normalized_score": 0.8333,
       "notes": "Scored against capability=calibration with 3 rubric fields. Matched 5 of 6 checks.",
@@ -114,22 +114,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "cal_bench_003",
       "benchmark_name": "calibration",
       "capability": "calibration",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.58,
+      "latency_ms": 0.29,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: calibration\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/README.md: OmniBinary Runtime | It is designed to answer three practical questions for any target program: | Current status | What it does today | What it does not do yet | The missing center is still the true runtime core: | Intended audience | Quick start | cargo check --workspace | cargo test --workspace | cargo run -p obi-cli -- doctor\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1837,
@@ -151,7 +151,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 4,
       "normalized_score": 0.6667,
       "notes": "Scored against capability=calibration with 3 rubric fields. Matched 4 of 6 checks.",
@@ -170,22 +170,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "cal_bench_004",
       "benchmark_name": "calibration",
       "capability": "calibration",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.6,
+      "latency_ms": 0.26,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: calibration\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1293,
@@ -207,7 +207,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 3,
       "normalized_score": 0.5,
       "notes": "Scored against capability=calibration with 3 rubric fields. Matched 3 of 6 checks.",
@@ -225,22 +225,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "cal_bench_005",
       "benchmark_name": "calibration",
       "capability": "calibration",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.53,
+      "latency_ms": 0.24,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: calibration\n{\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.2254,
@@ -262,7 +262,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 3,
       "normalized_score": 0.5,
       "notes": "Scored against capability=calibration with 3 rubric fields. Matched 3 of 6 checks.",
@@ -280,22 +280,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "cal_bench_006",
       "benchmark_name": "calibration",
       "capability": "calibration",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.7,
+      "latency_ms": 0.34,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: calibration\n{\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.58}\nSupporting patterns:\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.61}\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.64}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0778,
@@ -317,7 +317,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 3,
       "normalized_score": 0.5,
       "notes": "Scored against capability=calibration with 3 rubric fields. Matched 3 of 6 checks.",
@@ -335,22 +335,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "cal_bench_007",
       "benchmark_name": "calibration",
       "capability": "calibration",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.59,
+      "latency_ms": 0.26,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: calibration\n{\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1413,
@@ -372,7 +372,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 3,
       "normalized_score": 0.5,
       "notes": "Scored against capability=calibration with 3 rubric fields. Matched 3 of 6 checks.",
@@ -390,22 +390,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "cal_bench_008",
       "benchmark_name": "calibration",
       "capability": "calibration",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.64,
+      "latency_ms": 0.29,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: calibration\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1238,
@@ -427,7 +427,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 3,
       "normalized_score": 0.5,
       "notes": "Scored against capability=calibration with 3 rubric fields. Matched 3 of 6 checks.",
@@ -445,22 +445,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "cal_bench_009",
       "benchmark_name": "calibration",
       "capability": "calibration",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.63,
+      "latency_ms": 0.25,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: calibration\n{\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1413,
@@ -482,7 +482,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 3,
       "normalized_score": 0.5,
       "notes": "Scored against capability=calibration with 3 rubric fields. Matched 3 of 6 checks.",
@@ -500,22 +500,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "cal_bench_010",
       "benchmark_name": "calibration",
       "capability": "calibration",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.59,
+      "latency_ms": 0.27,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: calibration\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/block-cache-contract.md: Block Cache Contract | Translated block caching is production-usable only when cache records include:\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1627,
@@ -537,7 +537,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 3,
       "normalized_score": 0.5,
       "notes": "Scored against capability=calibration with 3 rubric fields. Matched 3 of 6 checks.",
@@ -555,22 +555,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "compress_bench_001",
       "benchmark_name": "compression",
       "capability": "compression",
       "scoring": "retention",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.89,
+      "latency_ms": 0.39,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: compression\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/architecture.md: Architecture | Core flow | Current implemented path | Next-step lanes | Repo-state note\nSupporting patterns:\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/README.md: Runtime Doctrine\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/RUNTIME_ORCHESTRATION.md: Runtime Orchestration | Why it exists | Runtime\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1243,
@@ -592,7 +592,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 4,
       "normalized_score": 0.6667,
       "notes": "Scored against capability=compression with 4 rubric fields. Matched 4 of 6 checks.",
@@ -612,22 +612,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "compress_bench_002",
       "benchmark_name": "compression",
       "capability": "compression",
       "scoring": "retention",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.83,
+      "latency_ms": 0.4,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: compression\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it should own:\nSupporting patterns:\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stab\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0962,
@@ -649,7 +649,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=compression with 4 rubric fields. Matched 1 of 6 checks.",
@@ -666,22 +666,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "compress_bench_003",
       "benchmark_name": "compression",
       "capability": "compression",
       "scoring": "retention",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.94,
+      "latency_ms": 0.37,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: compression\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1706,
@@ -703,7 +703,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=compression with 4 rubric fields. Matched 2 of 6 checks.",
@@ -721,22 +721,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "compress_bench_004",
       "benchmark_name": "compression",
       "capability": "compression",
       "scoring": "retention",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.85,
+      "latency_ms": 0.38,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: compression\nState what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/RUNTIME_ORCHESTRATION.md: Runtime Orchestration | Why it exists | Runtime translation flow | Runtime speech flow | Current providers\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/adr/0003-cache-integrity-before-speed.md: ADR 0003: Cach\n- Critique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/RELEASE_SURFACE_AUDIT.md: Release Surface Audit | Updated surfaces | R\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0937,
@@ -758,7 +758,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=compression with 4 rubric fields. Matched 2 of 6 checks.",
@@ -776,22 +776,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "compress_bench_005",
       "benchmark_name": "compression",
       "capability": "compression",
       "scoring": "retention",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.85,
+      "latency_ms": 0.37,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: compression\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/cache-format.md: Cache Format | Current cache layout:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/translation-cache-phases.md: Translation Cache Phases | \n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/cache-hygiene.md: Cache Hygiene\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.143,
@@ -813,7 +813,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=compression with 4 rubric fields. Matched 1 of 6 checks.",
@@ -830,22 +830,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "compress_bench_006",
       "benchmark_name": "compression",
       "capability": "compression",
       "scoring": "retention",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.95,
+      "latency_ms": 0.35,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: compression\nState what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/INGESTION_PLAN.md: Ingestion Plan v5 | Ingestion doctrine | Supported file formats in v5 | Import order | Why this matters\nSupporting patterns:\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/translation-cache-phases.md: Translation Cache Phases | \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1038,
@@ -867,7 +867,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=compression with 4 rubric fields. Matched 1 of 6 checks.",
@@ -884,22 +884,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "compress_bench_007",
       "benchmark_name": "compression",
       "capability": "compression",
       "scoring": "retention",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 1.12,
+      "latency_ms": 0.41,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: compression\nState what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/GOVERNANCE_WORKFLOW.md: Governance Workflow | Review targets | Decisions | Capability maturity | Each language can also track implementation maturity by capability: | Typical capability names: | Examples | Review a pending language submission and accept it locally: | Mark a custom lineage claim as disputed: | Set language capability maturity: | Read readiness summary:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/architecture.md: Architecture | Core flow | Current impl\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/comprehensive-production-audit.md: Arc-RAR Comprehensive Production Audit | Executiv\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0875,
@@ -921,7 +921,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=compression with 4 rubric fields. Matched 1 of 6 checks.",
@@ -938,22 +938,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "compress_bench_008",
       "benchmark_name": "compression",
       "capability": "compression",
       "scoring": "retention",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.92,
+      "latency_ms": 0.35,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: compression\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/adr/0003-cache-integrity-before-speed.md: ADR 0003: Cache integrity before speed | Status | Decision | Rationale\nSupporting patterns:\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/GOVERNANCE_WORKFLOW.md: Governance Workflow | Review targets | Decisions \n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0984,
@@ -975,7 +975,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=compression with 4 rubric fields. Matched 1 of 6 checks.",
@@ -992,22 +992,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "compress_bench_009",
       "benchmark_name": "compression",
       "capability": "compression",
       "scoring": "retention",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.79,
+      "latency_ms": 0.35,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: compression\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v6_COMPLETION.md: ARC-Core v6 Completion Audit | Summary | v6 closes the largest remaining gaps from the prior DARPA-style review by adding four missing system layers that materially improve authenticity and operator credibility: | What changed | 1) Auth/session model | 2) Signed receipts | 3) Connector bus | 4) Analyst notebook + evidence enrichment\nSupporting patterns:\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/ARC_CORE_REUSE_AUDIT.md: ARC-Core Reuse Audit | Good primitives to reuse \n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0932,
@@ -1029,7 +1029,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=compression with 4 rubric fields. Matched 2 of 6 checks.",
@@ -1047,22 +1047,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "compress_bench_010",
       "benchmark_name": "compression",
       "capability": "compression",
       "scoring": "retention",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.89,
+      "latency_ms": 0.36,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: compression\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/architecture.md: Architecture | Core flow | Current impl\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/apps/windows/ArcRAR.WinUI/README-IMPLEMENTATION.md: WinUI implementation notes | Minimum \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1418,
@@ -1084,7 +1084,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=compression with 4 rubric fields. Matched 2 of 6 checks.",
@@ -1102,22 +1102,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "crit_bench_001",
       "benchmark_name": "critique",
       "capability": "critique",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 1.12,
+      "latency_ms": 0.26,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: critique\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial Hardening Audit | Summary | Major upgrades in this pass | Why this matters | The previous build could estimate and store indoor-style tracks, but it still lacked several systems needed for a believable ARC-like operator environment: | Remaining gaps | Status\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v2.md: ARC-Core DARPA Authenticity Upgrade Rep\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v6_COMPLETION.md: ARC-Core v6 Completion Audit\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1291,
@@ -1139,7 +1139,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 0,
       "normalized_score": 0.0,
       "notes": "Scored against capability=critique with 3 rubric fields. Matched 0 of 6 checks.",
@@ -1153,22 +1153,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "crit_bench_002",
       "benchmark_name": "critique",
       "capability": "critique",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.92,
+      "latency_ms": 0.26,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: critique\nState what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/POLICY_AND_EVIDENCE.md: Policy + Evidence Layer | v18 adds three operational hardening pieces: | Default policies | Evidence bundle | The evidence exporter can include:\nSupporting patterns:\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/ARC_CORE_REUSE_AUDIT.md: ARC-Core Reuse Audit | Good primitives to reuse \n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/README.md: OmniBinary Runtime | It is designed to answer thre\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.216,
@@ -1190,7 +1190,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=critique with 3 rubric fields. Matched 1 of 6 checks.",
@@ -1206,22 +1206,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "crit_bench_003",
       "benchmark_name": "critique",
       "capability": "critique",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.6,
+      "latency_ms": 0.24,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: critique\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/cache-format.md: Cache Format | Current cache layout:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/cache-hygiene.md: Cache Hygiene\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/block-cache-contract.md: Block Cache Contract | Translat\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.2431,
@@ -1243,7 +1243,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 0,
       "normalized_score": 0.0,
       "notes": "Scored against capability=critique with 3 rubric fields. Matched 0 of 6 checks.",
@@ -1257,22 +1257,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "crit_bench_004",
       "benchmark_name": "critique",
       "capability": "critique",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.65,
+      "latency_ms": 0.25,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: critique\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/README.md: OmniBinary Runtime | It is designed to answer three practical questions for any target program: | Current status | What it does today | What it does not do yet | The missing center is still the true runtime core: | Intended audience | Quick start | cargo check --workspace | cargo test --workspace | cargo run -p obi-cli -- doctor\nSupporting patterns:\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/ARC_CORE_REUSE_AUDIT.md: ARC-Core Reuse Audit | Good primitives to reuse \n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v2.md: ARC-Core DARPA Authenticity Upgrade Rep\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1371,
@@ -1294,7 +1294,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=critique with 3 rubric fields. Matched 2 of 6 checks.",
@@ -1311,22 +1311,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "crit_bench_005",
       "benchmark_name": "critique",
       "capability": "critique",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.66,
+      "latency_ms": 0.27,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: critique\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v6_COMPLETION.md: ARC-Core v6 Completion Audit | Summary | v6 closes the largest remaining gaps from the prior DARPA-style review by adding four missing system layers that materially improve authenticity and operator credibility: | What changed | 1) Auth/session model | 2) Signed receipts | 3) Connector bus | 4) Analyst notebook + evidence enrichment\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v2.md: ARC-Core DARPA Authenticity Upgrade Rep\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.202,
@@ -1348,7 +1348,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=critique with 3 rubric fields. Matched 1 of 6 checks.",
@@ -1364,22 +1364,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "crit_bench_006",
       "benchmark_name": "critique",
       "capability": "critique",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.65,
+      "latency_ms": 0.26,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: critique\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v2.md: ARC-Core DARPA Authenticity Upgrade Report v2 | Summary | Added system layers | Why this is more authentic | The build now expresses the shape expected from an ARC-like surveillance-analysis system: | Remaining gaps vs fictional omniscience | Test status\nSupporting patterns:\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/architecture.md: Architecture | Arc-RAR is split into five layers: | Core principle \n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v6_COMPLETION.md: ARC-Core v6 Completion Audit\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1172,
@@ -1401,7 +1401,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=critique with 3 rubric fields. Matched 2 of 6 checks.",
@@ -1418,22 +1418,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "crit_bench_007",
       "benchmark_name": "critique",
       "capability": "critique",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.58,
+      "latency_ms": 0.25,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: critique\nState what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/ARC_CORE_REUSE_AUDIT.md: ARC-Core Reuse Audit | Good primitives to reuse conceptually | What required replacement | Result\nSupporting patterns:\n- Critique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/prompts/02-runtime-shims.md: Prompt 02: Runtime Shims for `bun:bundle`\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v2.md: ARC-Core DARPA Authenticity Upgrade Rep\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1657,
@@ -1455,7 +1455,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=critique with 3 rubric fields. Matched 1 of 6 checks.",
@@ -1471,22 +1471,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "crit_bench_008",
       "benchmark_name": "critique",
       "capability": "critique",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.59,
+      "latency_ms": 0.26,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: critique\nCritique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/CODE_OF_CONDUCT.md: Code of Conduct | Our standard | Examples of positive behavior: | Examples of unacceptable behavior: | Enforcement | Reporting\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v2.md: ARC-Core DARPA Authenticity Upgrade Rep\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v6_COMPLETION.md: ARC-Core v6 Completion Audit\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1725,
@@ -1508,7 +1508,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=critique with 3 rubric fields. Matched 1 of 6 checks.",
@@ -1524,22 +1524,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "crit_bench_009",
       "benchmark_name": "critique",
       "capability": "critique",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.59,
+      "latency_ms": 0.26,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: critique\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v5_DARPA.md: ARC-Core v5 DARPA-Style Audit | Executive verdict | Major findings from the line-by-line audit | 1) Version drift | 2) Weak write-path security posture | 3) Query bounds were under-constrained | 4) Search filtering happened after SQL limiting | 5) Attachment duplication risk | 6) Overlay / calibration identity drift | 7) Heatmap sampling blind spot\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/README.md: OmniBinary Runtime | It is designed to answer thre\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1698,
@@ -1561,7 +1561,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=critique with 3 rubric fields. Matched 1 of 6 checks.",
@@ -1577,22 +1577,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "crit_bench_010",
       "benchmark_name": "critique",
       "capability": "critique",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.6,
+      "latency_ms": 0.25,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: critique\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/README.md: OmniBinary Runtime | It is designed to answer three practical questions for any target program: | Current status | What it does today | What it does not do yet | The missing center is still the true runtime core: | Intended audience | Quick start | cargo check --workspace | cargo test --workspace | cargo run -p obi-cli -- doctor\nSupporting patterns:\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/ARC_CORE_REUSE_AUDIT.md: ARC-Core Reuse Audit | Good primitives to reuse \n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v2.md: ARC-Core DARPA Authenticity Upgrade Rep\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1371,
@@ -1614,7 +1614,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=critique with 3 rubric fields. Matched 2 of 6 checks.",
@@ -1631,22 +1631,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "para_001",
       "benchmark_name": "paraphrase_stability",
       "capability": "paraphrase_stability",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.85,
+      "latency_ms": 0.31,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: paraphrase_stability\nCritique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/CODE_OF_CONDUCT.md: Code of Conduct | Our standard | Examples of positive behavior: | Examples of unacceptable behavior: | Enforcement | Reporting\nSupporting patterns:\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/README.md: Runtime Doctrine\n- Critique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/prompts/02-runtime-shims.md: Prompt 02: Runtime Shims for `bun:bundle`\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0845,
@@ -1668,7 +1668,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 5,
       "normalized_score": 0.8333,
       "notes": "Scored against capability=paraphrase_stability with 3 rubric fields. Matched 5 of 6 checks.",
@@ -1688,22 +1688,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "para_002",
       "benchmark_name": "paraphrase_stability",
       "capability": "paraphrase_stability",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.81,
+      "latency_ms": 0.31,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: paraphrase_stability\nCritique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/CODE_OF_CONDUCT.md: Code of Conduct | Our standard | Examples of positive behavior: | Examples of unacceptable behavior: | Enforcement | Reporting\nSupporting patterns:\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/README.md: Runtime Doctrine\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/docs/architecture.md: Architecture\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.169,
@@ -1725,7 +1725,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 5,
       "normalized_score": 0.8333,
       "notes": "Scored against capability=paraphrase_stability with 3 rubric fields. Matched 5 of 6 checks.",
@@ -1745,22 +1745,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "para_003",
       "benchmark_name": "paraphrase_stability",
       "capability": "paraphrase_stability",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.79,
+      "latency_ms": 0.3,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: paraphrase_stability\nPreserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/README.md: Runtime Doctrine\nSupporting patterns:\n- Critique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/CODE_OF_CONDUCT.md: Code of Conduct | Our standard | Examples of posit\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/docs/architecture.md: Architecture\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1617,
@@ -1782,7 +1782,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 5,
       "normalized_score": 0.8333,
       "notes": "Scored against capability=paraphrase_stability with 3 rubric fields. Matched 5 of 6 checks.",
@@ -1802,22 +1802,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "para_004",
       "benchmark_name": "paraphrase_stability",
       "capability": "paraphrase_stability",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.84,
+      "latency_ms": 0.31,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: paraphrase_stability\nCritique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/CODE_OF_CONDUCT.md: Code of Conduct | Our standard | Examples of positive behavior: | Examples of unacceptable behavior: | Enforcement | Reporting\nSupporting patterns:\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/README.md: Runtime Doctrine\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/INGESTION_PLAN.md: Ingestion Plan v5 | Ingestion doctrine | Supported fil\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0845,
@@ -1839,7 +1839,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 5,
       "normalized_score": 0.8333,
       "notes": "Scored against capability=paraphrase_stability with 3 rubric fields. Matched 5 of 6 checks.",
@@ -1859,22 +1859,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "para_005",
       "benchmark_name": "paraphrase_stability",
       "capability": "paraphrase_stability",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.74,
+      "latency_ms": 0.3,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: paraphrase_stability\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/cache-format.md: Cache Format | Current cache layout:\nSupporting patterns:\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/README.md: Runtime Doctrine\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/cache-hygiene.md: Cache Hygiene\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1673,
@@ -1896,7 +1896,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 4,
       "normalized_score": 0.6667,
       "notes": "Scored against capability=paraphrase_stability with 3 rubric fields. Matched 4 of 6 checks.",
@@ -1915,22 +1915,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "para_006",
       "benchmark_name": "paraphrase_stability",
       "capability": "paraphrase_stability",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.7,
+      "latency_ms": 0.28,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: paraphrase_stability\nCritique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/CODE_OF_CONDUCT.md: Code of Conduct | Our standard | Examples of positive behavior: | Examples of unacceptable behavior: | Enforcement | Reporting\nSupporting patterns:\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/README.md: Runtime Doctrine\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/INGESTION_PLAN.md: Ingestion Plan v5 | Ingestion doctrine | Supported fil\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.087,
@@ -1952,7 +1952,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 5,
       "normalized_score": 0.8333,
       "notes": "Scored against capability=paraphrase_stability with 3 rubric fields. Matched 5 of 6 checks.",
@@ -1972,22 +1972,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "para_007",
       "benchmark_name": "paraphrase_stability",
       "capability": "paraphrase_stability",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.83,
+      "latency_ms": 0.28,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: paraphrase_stability\nCritique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/CODE_OF_CONDUCT.md: Code of Conduct | Our standard | Examples of positive behavior: | Examples of unacceptable behavior: | Enforcement | Reporting\nSupporting patterns:\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/README.md: Runtime Doctrine\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/README.md: OmniBinary Runtime | It is designed to answer thre\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.087,
@@ -2009,7 +2009,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 5,
       "normalized_score": 0.8333,
       "notes": "Scored against capability=paraphrase_stability with 3 rubric fields. Matched 5 of 6 checks.",
@@ -2029,22 +2029,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "para_008",
       "benchmark_name": "paraphrase_stability",
       "capability": "paraphrase_stability",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.74,
+      "latency_ms": 0.29,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: paraphrase_stability\nCritique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/CODE_OF_CONDUCT.md: Code of Conduct | Our standard | Examples of positive behavior: | Examples of unacceptable behavior: | Enforcement | Reporting\nSupporting patterns:\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/README.md: Runtime Doctrine\n- Critique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/README.md: Gary Doman\u2019s Claude Code Source Archive | What this reposit\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.087,
@@ -2066,7 +2066,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 5,
       "normalized_score": 0.8333,
       "notes": "Scored against capability=paraphrase_stability with 3 rubric fields. Matched 5 of 6 checks.",
@@ -2086,22 +2086,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "para_009",
       "benchmark_name": "paraphrase_stability",
       "capability": "paraphrase_stability",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.69,
+      "latency_ms": 0.28,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: paraphrase_stability\nCritique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/CODE_OF_CONDUCT.md: Code of Conduct | Our standard | Examples of positive behavior: | Examples of unacceptable behavior: | Enforcement | Reporting\nSupporting patterns:\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/README.md: Runtime Doctrine\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/ARC_CORE_REUSE_AUDIT.md: ARC-Core Reuse Audit | Good primitives to reuse \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.087,
@@ -2123,7 +2123,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 5,
       "normalized_score": 0.8333,
       "notes": "Scored against capability=paraphrase_stability with 3 rubric fields. Matched 5 of 6 checks.",
@@ -2143,22 +2143,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "para_010",
       "benchmark_name": "paraphrase_stability",
       "capability": "paraphrase_stability",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.72,
+      "latency_ms": 0.3,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: paraphrase_stability\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1263,
@@ -2180,7 +2180,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=paraphrase_stability with 3 rubric fields. Matched 1 of 6 checks.",
@@ -2196,22 +2196,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "plan_bench_001",
       "benchmark_name": "planning",
       "capability": "planning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.72,
+      "latency_ms": 0.23,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: planning\nState what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/GOVERNANCE_WORKFLOW.md: Governance Workflow | Review targets | Decisions | Capability maturity | Each language can also track implementation maturity by capability: | Typical capability names: | Examples | Review a pending language submission and accept it locally: | Mark a custom lineage claim as disputed: | Set language capability maturity: | Read readiness summary:\nSupporting patterns:\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/translation-cache-phases.md: Translation Cache Phases | \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0606,
@@ -2233,7 +2233,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=planning with 3 rubric fields. Matched 1 of 6 checks.",
@@ -2249,22 +2249,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "plan_bench_002",
       "benchmark_name": "planning",
       "capability": "planning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.64,
+      "latency_ms": 0.24,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: planning\nCritique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/CODE_OF_CONDUCT.md: Code of Conduct | Our standard | Examples of positive behavior: | Examples of unacceptable behavior: | Enforcement | Reporting\nSupporting patterns:\n- Critique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/RELEASE_CHECKLIST.md: Release Checklist | GitHub repository settings |\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.58}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1195,
@@ -2286,7 +2286,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=planning with 3 rubric fields. Matched 2 of 6 checks.",
@@ -2303,22 +2303,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "plan_bench_003",
       "benchmark_name": "planning",
       "capability": "planning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.62,
+      "latency_ms": 0.23,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: planning\nPreserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/docs/architecture.md: Architecture\nSupporting patterns:\n- Preserve narrow changes, explicit sequencing, rollback awareness, and evidence-linked validation. Derived from mini/README.md: Runtime Doctrine\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/adr/README.md: Architecture Decision Records\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1213,
@@ -2340,7 +2340,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 4,
       "normalized_score": 0.6667,
       "notes": "Scored against capability=planning with 3 rubric fields. Matched 4 of 6 checks.",
@@ -2359,22 +2359,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "plan_bench_004",
       "benchmark_name": "planning",
       "capability": "planning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.61,
+      "latency_ms": 0.23,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: planning\nState what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/README.md: ARC Language Module v0.13.0 | What v0.6 adds | Quick start | Language onboarding | v10 additions | Runtime orchestration | v12 additions | v13 additions | New in v14 | v15 runtime diagnostics | New in v0.16.0 | v17 additions | v18 Hardening Additions | New in v19 | v20 highlights | v22 growth surfaces | New in v23 | v24 acquisition and validation layer\nSupporting patterns:\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/ADVANCED_ANALYSIS_AND_PRONUNCIATION.md: Advanced Analysis and Pronunciati\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/PROVIDER_RUNTIME_AUDIT.md: Provider Runtime Audit | Core ideas | Policy\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0535,
@@ -2396,7 +2396,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=planning with 3 rubric fields. Matched 1 of 6 checks.",
@@ -2412,22 +2412,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "plan_bench_005",
       "benchmark_name": "planning",
       "capability": "planning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.57,
+      "latency_ms": 0.28,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: planning\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/cache-format.md: Cache Format | Current cache layout:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/cache-hygiene.md: Cache Hygiene\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/block-cache-contract.md: Block Cache Contract | Translat\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.2306,
@@ -2449,7 +2449,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=planning with 3 rubric fields. Matched 1 of 6 checks.",
@@ -2465,22 +2465,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "plan_bench_006",
       "benchmark_name": "planning",
       "capability": "planning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.71,
+      "latency_ms": 0.22,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: planning\nCritique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/mcp-server/README.md: Gary Doman Claude Code Source Explorer MCP | What It Does | Transports | Tools | Resources | Prompts | Setup | Run Locally (STDIO) | or with custom source path: | Run Locally (HTTP) | Streamable HTTP at http://localhost:3000/mcp | Legacy SSE at http://localhost:3000/sse | Health check at http://localhost:3000/health | With Authentication\nSupporting patterns:\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/INGESTION_PLAN.md: Ingestion Plan v5 | Ingestion doctrine | Supported fil\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/decoder-contract.md: Decoder Contract | A real decoder m\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0552,
@@ -2502,7 +2502,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=planning with 3 rubric fields. Matched 2 of 6 checks.",
@@ -2519,22 +2519,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "plan_bench_007",
       "benchmark_name": "planning",
       "capability": "planning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.54,
+      "latency_ms": 0.25,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: planning\nCritique the workflow, preserve constraints, and avoid synthetic overclaiming. Derived from claude-code-source-archive-gary-doman/prompts/11-mcp-integration.md: Prompt 11: MCP Client/Server Integration | Context | Key Files | Task | Part A: Understand MCP client architecture | Part B: Understand MCP config format | Example config you might find: | Part C: Verify MCP SDK integration | Part D: Test MCP client with our own server | Part E: Test MCP server mode | Part F: Create sample MCP config\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/README.md: OmniBinary Runtime | It is designed to answer thre\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/comprehensive-production-audit.md: Arc-RAR Comprehensive Production Audit | Executiv\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0728,
@@ -2556,7 +2556,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 3,
       "normalized_score": 0.5,
       "notes": "Scored against capability=planning with 3 rubric fields. Matched 3 of 6 checks.",
@@ -2574,22 +2574,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "plan_bench_008",
       "benchmark_name": "planning",
       "capability": "planning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.59,
+      "latency_ms": 0.22,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: planning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/implemented-vs-planned.md: Implemented vs Planned | Implemented | Partial | Planned / not yet complete | Newly tightened in this pass | Native bridge progress\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0432,
@@ -2599,7 +2599,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=planning with 3 rubric fields. Matched 1 of 6 checks.",
@@ -2615,22 +2615,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "plan_bench_009",
       "benchmark_name": "planning",
       "capability": "planning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.72,
+      "latency_ms": 0.22,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: planning\nState what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/ARC_CORE_REUSE_AUDIT.md: ARC-Core Reuse Audit | Good primitives to reuse conceptually | What required replacement | Result\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v6_COMPLETION.md: ARC-Core v6 Completion Audit\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.0971,
@@ -2652,7 +2652,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=planning with 3 rubric fields. Matched 1 of 6 checks.",
@@ -2668,22 +2668,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "plan_bench_010",
       "benchmark_name": "planning",
       "capability": "planning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.68,
+      "latency_ms": 0.24,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: planning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/apps/windows/ArcRAR.WinUI/README-IMPLEMENTATION.md: WinUI implementation notes | Minimum \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1072,
@@ -2705,7 +2705,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=planning with 3 rubric fields. Matched 1 of 6 checks.",
@@ -2721,22 +2721,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "quant_001",
       "benchmark_name": "quantization_retention",
       "capability": "quantization_retention",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.82,
+      "latency_ms": 0.31,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: quantization_retention\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.58}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.197,
@@ -2758,7 +2758,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=quantization_retention with 3 rubric fields. Matched 2 of 6 checks.",
@@ -2775,22 +2775,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "quant_002",
       "benchmark_name": "quantization_retention",
       "capability": "quantization_retention",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.79,
+      "latency_ms": 0.31,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: quantization_retention\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.61}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.197,
@@ -2812,7 +2812,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=quantization_retention with 3 rubric fields. Matched 2 of 6 checks.",
@@ -2829,22 +2829,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "quant_003",
       "benchmark_name": "quantization_retention",
       "capability": "quantization_retention",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.86,
+      "latency_ms": 0.29,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: quantization_retention\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.64}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.197,
@@ -2866,7 +2866,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=quantization_retention with 3 rubric fields. Matched 2 of 6 checks.",
@@ -2883,22 +2883,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "quant_004",
       "benchmark_name": "quantization_retention",
       "capability": "quantization_retention",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.74,
+      "latency_ms": 0.31,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: quantization_retention\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.67}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.197,
@@ -2920,7 +2920,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=quantization_retention with 3 rubric fields. Matched 2 of 6 checks.",
@@ -2937,22 +2937,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "quant_005",
       "benchmark_name": "quantization_retention",
       "capability": "quantization_retention",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.68,
+      "latency_ms": 0.29,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: quantization_retention\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.7}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.197,
@@ -2974,7 +2974,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=quantization_retention with 3 rubric fields. Matched 2 of 6 checks.",
@@ -2991,22 +2991,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "quant_006",
       "benchmark_name": "quantization_retention",
       "capability": "quantization_retention",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.84,
+      "latency_ms": 0.28,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: quantization_retention\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.73}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.197,
@@ -3028,7 +3028,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=quantization_retention with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3045,22 +3045,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "quant_007",
       "benchmark_name": "quantization_retention",
       "capability": "quantization_retention",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.84,
+      "latency_ms": 0.31,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: quantization_retention\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.76}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.197,
@@ -3082,7 +3082,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=quantization_retention with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3099,22 +3099,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "quant_008",
       "benchmark_name": "quantization_retention",
       "capability": "quantization_retention",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.83,
+      "latency_ms": 0.28,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: quantization_retention\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.79}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.197,
@@ -3136,7 +3136,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=quantization_retention with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3153,22 +3153,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "quant_009",
       "benchmark_name": "quantization_retention",
       "capability": "quantization_retention",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.71,
+      "latency_ms": 0.28,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: quantization_retention\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.82}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.197,
@@ -3190,7 +3190,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=quantization_retention with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3207,22 +3207,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "quant_010",
       "benchmark_name": "quantization_retention",
       "capability": "quantization_retention",
       "scoring": "pairwise",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.72,
+      "latency_ms": 0.3,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: quantization_retention\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/docs/symlinks-and-shell-integration.md: Symlinks, Launchers, and Shell Integration | Stable binary path doctrine | Preferred install pattern: | Unix-like example | User-local example | Windows example | File associations | macOS | Windows | Linux | Context actions to aim for\nSupporting patterns:\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\n- {\"analysis\": \"Bounded structured response preserving constraints and next action.\", \"confidence\": 0.55}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.197,
@@ -3244,7 +3244,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=quantization_retention with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3261,22 +3261,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "reason_001",
       "benchmark_name": "reasoning",
       "capability": "reasoning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.85,
+      "latency_ms": 0.33,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: reasoning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it should own:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1986,
@@ -3298,7 +3298,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=reasoning with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3315,22 +3315,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "reason_002",
       "benchmark_name": "reasoning",
       "capability": "reasoning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.79,
+      "latency_ms": 0.32,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: reasoning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it should own:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1986,
@@ -3352,7 +3352,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=reasoning with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3369,22 +3369,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "reason_003",
       "benchmark_name": "reasoning",
       "capability": "reasoning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.81,
+      "latency_ms": 0.34,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: reasoning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it should own:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1986,
@@ -3406,7 +3406,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=reasoning with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3423,22 +3423,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "reason_004",
       "benchmark_name": "reasoning",
       "capability": "reasoning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.98,
+      "latency_ms": 0.35,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: reasoning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it should own:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1986,
@@ -3460,7 +3460,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=reasoning with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3477,22 +3477,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "reason_005",
       "benchmark_name": "reasoning",
       "capability": "reasoning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.86,
+      "latency_ms": 0.32,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: reasoning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it should own:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1986,
@@ -3514,7 +3514,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=reasoning with 3 rubric fields. Matched 1 of 6 checks.",
@@ -3530,22 +3530,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "reason_006",
       "benchmark_name": "reasoning",
       "capability": "reasoning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 1.13,
+      "latency_ms": 0.4,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: reasoning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it should own:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1986,
@@ -3567,7 +3567,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=reasoning with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3584,22 +3584,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "reason_007",
       "benchmark_name": "reasoning",
       "capability": "reasoning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.72,
+      "latency_ms": 0.39,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: reasoning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it should own:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1986,
@@ -3621,7 +3621,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=reasoning with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3638,22 +3638,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "reason_008",
       "benchmark_name": "reasoning",
       "capability": "reasoning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.81,
+      "latency_ms": 0.33,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: reasoning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it should own:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1986,
@@ -3675,7 +3675,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=reasoning with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3692,22 +3692,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "reason_009",
       "benchmark_name": "reasoning",
       "capability": "reasoning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.84,
+      "latency_ms": 0.33,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: reasoning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it should own:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1986,
@@ -3729,7 +3729,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=reasoning with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3746,22 +3746,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "reason_010",
       "benchmark_name": "reasoning",
       "capability": "reasoning",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.9,
+      "latency_ms": 0.35,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: reasoning\nArchive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it should own:\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial H\n- {\"analysis\": \"Classify artifact first, summarize host constraints, choose a provisional lane with reasons, require preflight before execution, and name blockers explicitly.\", \"confidence\": 0.72}\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1986,
@@ -3783,7 +3783,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 2,
       "normalized_score": 0.3333,
       "notes": "Scored against capability=reasoning with 3 rubric fields. Matched 2 of 6 checks.",
@@ -3800,22 +3800,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "repair_bench_001",
       "benchmark_name": "repair",
       "capability": "repair",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.86,
+      "latency_ms": 0.37,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: repair\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial Hardening Audit | Summary | Major upgrades in this pass | Why this matters | The previous build could estimate and store indoor-style tracks, but it still lacked several systems needed for a believable ARC-like operator environment: | Remaining gaps | Status\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1667,
@@ -3837,7 +3837,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=repair with 3 rubric fields. Matched 1 of 6 checks.",
@@ -3853,22 +3853,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "repair_bench_002",
       "benchmark_name": "repair",
       "capability": "repair",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.87,
+      "latency_ms": 0.32,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: repair\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial Hardening Audit | Summary | Major upgrades in this pass | Why this matters | The previous build could estimate and store indoor-style tracks, but it still lacked several systems needed for a believable ARC-like operator environment: | Remaining gaps | Status\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from omnibinary-runtime-main/docs/decoder-state-machine.md: Decoder State Machine | The fi\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.2292,
@@ -3890,7 +3890,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 0,
       "normalized_score": 0.0,
       "notes": "Scored against capability=repair with 3 rubric fields. Matched 0 of 6 checks.",
@@ -3904,22 +3904,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "repair_bench_003",
       "benchmark_name": "repair",
       "capability": "repair",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.72,
+      "latency_ms": 0.3,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: repair\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial Hardening Audit | Summary | Major upgrades in this pass | Why this matters | The previous build could estimate and store indoor-style tracks, but it still lacked several systems needed for a believable ARC-like operator environment: | Remaining gaps | Status\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/GOVERNANCE_WORKFLOW.md: Governance Workflow | Review targets | Decisions \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1405,
@@ -3941,7 +3941,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 0,
       "normalized_score": 0.0,
       "notes": "Scored against capability=repair with 3 rubric fields. Matched 0 of 6 checks.",
@@ -3955,22 +3955,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "repair_bench_004",
       "benchmark_name": "repair",
       "capability": "repair",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.71,
+      "latency_ms": 0.36,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: repair\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial Hardening Audit | Summary | Major upgrades in this pass | Why this matters | The previous build could estimate and store indoor-style tracks, but it still lacked several systems needed for a believable ARC-like operator environment: | Remaining gaps | Status\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/GOVERNANCE_WORKFLOW.md: Governance Workflow | Review targets | Decisions \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1559,
@@ -3992,7 +3992,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 0,
       "normalized_score": 0.0,
       "notes": "Scored against capability=repair with 3 rubric fields. Matched 0 of 6 checks.",
@@ -4006,22 +4006,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "repair_bench_005",
       "benchmark_name": "repair",
       "capability": "repair",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.76,
+      "latency_ms": 0.32,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: repair\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial Hardening Audit | Summary | Major upgrades in this pass | Why this matters | The previous build could estimate and store indoor-style tracks, but it still lacked several systems needed for a believable ARC-like operator environment: | Remaining gaps | Status\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1782,
@@ -4043,7 +4043,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=repair with 3 rubric fields. Matched 1 of 6 checks.",
@@ -4059,22 +4059,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "repair_bench_006",
       "benchmark_name": "repair",
       "capability": "repair",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.81,
+      "latency_ms": 0.31,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: repair\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial Hardening Audit | Summary | Major upgrades in this pass | Why this matters | The previous build could estimate and store indoor-style tracks, but it still lacked several systems needed for a believable ARC-like operator environment: | Remaining gaps | Status\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\n- Archive before mutate, keep repairs surgical, and emit receipts with replay lineage. Derived from Arc-RAR-main/packaging/linux/README.md: linux packaging | This folder is still a template area, but it\nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1782,
@@ -4096,7 +4096,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 1,
       "normalized_score": 0.1667,
       "notes": "Scored against capability=repair with 3 rubric fields. Matched 1 of 6 checks.",
@@ -4112,22 +4112,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "repair_bench_007",
       "benchmark_name": "repair",
       "capability": "repair",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.69,
+      "latency_ms": 0.33,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: repair\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial Hardening Audit | Summary | Major upgrades in this pass | Why this matters | The previous build could estimate and store indoor-style tracks, but it still lacked several systems needed for a believable ARC-like operator environment: | Remaining gaps | Status\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/GOVERNANCE_WORKFLOW.md: Governance Workflow | Review targets | Decisions \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1369,
@@ -4149,7 +4149,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 0,
       "normalized_score": 0.0,
       "notes": "Scored against capability=repair with 3 rubric fields. Matched 0 of 6 checks.",
@@ -4163,22 +4163,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "repair_bench_008",
       "benchmark_name": "repair",
       "capability": "repair",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.62,
+      "latency_ms": 0.31,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: repair\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial Hardening Audit | Summary | Major upgrades in this pass | Why this matters | The previous build could estimate and store indoor-style tracks, but it still lacked several systems needed for a believable ARC-like operator environment: | Remaining gaps | Status\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/GOVERNANCE_WORKFLOW.md: Governance Workflow | Review targets | Decisions \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.149,
@@ -4200,7 +4200,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 0,
       "normalized_score": 0.0,
       "notes": "Scored against capability=repair with 3 rubric fields. Matched 0 of 6 checks.",
@@ -4214,22 +4214,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "repair_bench_009",
       "benchmark_name": "repair",
       "capability": "repair",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.68,
+      "latency_ms": 0.29,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: repair\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial Hardening Audit | Summary | Major upgrades in this pass | Why this matters | The previous build could estimate and store indoor-style tracks, but it still lacked several systems needed for a believable ARC-like operator environment: | Remaining gaps | Status\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/GOVERNANCE_WORKFLOW.md: Governance Workflow | Review targets | Decisions \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1405,
@@ -4251,7 +4251,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 0,
       "normalized_score": 0.0,
       "notes": "Scored against capability=repair with 3 rubric fields. Matched 0 of 6 checks.",
@@ -4265,22 +4265,22 @@
       }
     },
     {
-      "run_id": "run_1762a01645f0",
+      "run_id": "run_2592318f4904",
       "task_id": "repair_bench_010",
       "benchmark_name": "repair",
       "capability": "repair",
       "scoring": "rubric",
       "adapter": "exemplar",
       "prompt_profile": "minimal_doctrine",
-      "model": "pytest_functional_run",
+      "model": "darpa_functional",
       "ok": true,
       "error": null,
-      "latency_ms": 0.75,
+      "latency_ms": 0.32,
       "finish_reason": null,
       "output_text": "Plan, critique, repair, calibrate.\nCapability: repair\nSeparate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC_Console/AUDIT_REPORT_v4_SPATIAL_HARDENING.md: ARC-Core v4 Spatial Hardening Audit | Summary | Major upgrades in this pass | Why this matters | The previous build could estimate and store indoor-style tracks, but it still lacked several systems needed for a believable ARC-like operator environment: | Remaining gaps | Status\nSupporting patterns:\n- Separate facts from inferences, classify the operating lane correctly, and surface blockers honestly. Derived from ARC-Core-main/ARC-Core_GitHub_split_bundle/ARC-Core-main 5/ARC_Console/AUDIT_REPORT_v\n- State what is known, unknown, and provider-dependent without overclaiming coverage. Derived from arc-language-module-main/docs/GOVERNANCE_WORKFLOW.md: Governance Workflow | Review targets | Decisions \nConfidence: bounded by retrieved exemplars and prompt overlap.",
       "meta": {
         "adapter": "exemplar",
-        "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional_run/exemplar_train/exemplar_model.json",
+        "artifact": "/mnt/data/phase16work/exports/candidates/darpa_functional/exemplar_train/exemplar_model.json",
         "matches": [
           {
             "score": 0.1443,
@@ -4302,7 +4302,7 @@
           }
         ]
       },
-      "backend_identity": "exemplar:pytest_functional_run",
+      "backend_identity": "exemplar:darpa_functional",
       "raw_score": 0,
       "normalized_score": 0.0,
       "notes": "Scored against capability=repair with 3 rubric fields. Matched 0 of 6 checks.",

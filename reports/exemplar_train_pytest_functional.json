@@ -1,15 +1,15 @@
 {
   "ok": true,
   "manifest": "exports/candidates/pytest_functional/exemplar_train/artifact_manifest.json",
-  "artifact_id": "exemplar_train_0afc2c906bd8",
+  "artifact_id": "exemplar_train_8c3aa5529a32",
   "stage": "exemplar_train",
   "candidate": "pytest_functional",
-  "created_at": "2026-04-14T21:37:05.184459+00:00",
+  "created_at": "2026-04-14T22:56:55.460300+00:00",
   "status": "completed",
   "execution_mode": "native",
   "notes": "Built a functioning exemplar retrieval model artifact from curated repo datasets.",
   "paths": {
-    "artifact": "/mnt/data/cc_phase3/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional/exemplar_train/exemplar_model.json"
+    "artifact": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/pytest_functional/exemplar_train/exemplar_model.json"
   },
   "metrics": {
     "record_count": 102

@@ -1,8 +1,8 @@
 {
   "ok": true,
   "candidate": {
-    "candidate_id": "cand_8573d1566b",
-    "run_id": "run_261f3d7b07af",
+    "candidate_id": "cand_1cf2fa0348",
+    "run_id": "run_94520d6a0138",
     "model": "candidate_v1",
     "adapter": "heuristic",
     "backend_identity": "heuristic:synthetic-baseline",
@@ -20,13 +20,13 @@
     "failure_rate": 0.0,
     "latency_summary_ms": {
       "avg": 0.0,
-      "max": 0.02
+      "max": 0.03
     },
     "artifacts": {
       "scored_outputs": "results/scored_outputs.json",
       "promotion_report": "reports/promotion_decision.json"
     },
-    "created_at": "2026-04-14T21:37:24.313317+00:00",
+    "created_at": "2026-04-14T22:02:44.185474+00:00",
     "incumbent": false
   },
   "incumbent_before": {

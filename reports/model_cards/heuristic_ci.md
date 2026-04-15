@@ -116,6 +116,64 @@ Candidate cognition model evaluated inside the cognition lab package.
       },
       "created_at": "2026-04-14T21:22:03.085817+00:00",
       "incumbent": false
+    },
+    {
+      "candidate_id": "cand_8573d1566b",
+      "run_id": "run_261f3d7b07af",
+      "model": "candidate_v1",
+      "adapter": "heuristic",
+      "backend_identity": "heuristic:synthetic-baseline",
+      "prompt_profile": "minimal_doctrine",
+      "benchmark_version": "seed_tasks_v1",
+      "scorer_version": "v2-task-aware",
+      "reasoning_accuracy": 0.1667,
+      "planning_quality": 0.2167,
+      "critique_usefulness": 0.6667,
+      "repair_success": 0.8333,
+      "compression_retention": 0.2667,
+      "calibration_error": 0.3333,
+      "paraphrase_stability": 0.85,
+      "overall_weighted_score": 0.5625,
+      "failure_rate": 0.0,
+      "latency_summary_ms": {
+        "avg": 0.0,
+        "max": 0.02
+      },
+      "artifacts": {
+        "scored_outputs": "results/scored_outputs.json",
+        "promotion_report": "reports/promotion_decision.json"
+      },
+      "created_at": "2026-04-14T21:37:24.313317+00:00",
+      "incumbent": false
+    },
+    {
+      "candidate_id": "cand_1cf2fa0348",
+      "run_id": "run_94520d6a0138",
+      "model": "candidate_v1",
+      "adapter": "heuristic",
+      "backend_identity": "heuristic:synthetic-baseline",
+      "prompt_profile": "minimal_doctrine",
+      "benchmark_version": "seed_tasks_v1",
+      "scorer_version": "v2-task-aware",
+      "reasoning_accuracy": 0.1667,
+      "planning_quality": 0.2167,
+      "critique_usefulness": 0.6667,
+      "repair_success": 0.8333,
+      "compression_retention": 0.2667,
+      "calibration_error": 0.3333,
+      "paraphrase_stability": 0.85,
+      "overall_weighted_score": 0.5625,
+      "failure_rate": 0.0,
+      "latency_summary_ms": {
+        "avg": 0.0,
+        "max": 0.03
+      },
+      "artifacts": {
+        "scored_outputs": "results/scored_outputs.json",
+        "promotion_report": "reports/promotion_decision.json"
+      },
+      "created_at": "2026-04-14T22:02:44.185474+00:00",
+      "incumbent": false
     }
   ]
 }

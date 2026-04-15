@@ -1,10 +1,10 @@
 {
   "source_name": "cleanroom",
-  "source_path": "/tmp/pytest-of-root/pytest-10/test_supporting_repo_ingestion0/mini.zip",
+  "source_path": "/tmp/pytest-of-root/pytest-13/test_supporting_repo_ingestion0/mini.zip",
   "output_path": "datasets/runtime_mindshape/cleanroom_seed_records.jsonl",
   "records_written": 2,
   "doc_count": 2,
-  "created_at": "2026-04-14T21:36:51.471134+00:00",
+  "created_at": "2026-04-14T22:56:21.910020+00:00",
   "top_documents": [
     {
       "path": "mini/README.md",

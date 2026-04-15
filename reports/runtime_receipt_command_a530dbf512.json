@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "adapter": "command",
+  "backend_identity": "command:local-command-model",
+  "artifact": null,
+  "command_template": "/opt/pyvenv/bin/python3 /tmp/pytest-of-root/pytest-2/test_command_adapter_supports_0/echo_prompt.py {combined_prompt_file}",
+  "prompt_hash": "a530dbf512d5e47182fc5745bb464b71b8c5aeb2cc376d06086022b082e5e8af",
+  "system_prompt_hash": "7fe87d40626af8bcc228d86623f3eceed30517e1257f94aecde08892220f3ba3",
+  "started_at": "2026-04-14T22:20:31.227639+00:00",
+  "finished_at": "2026-04-14T22:20:34.338023+00:00",
+  "duration_ms": 3108.15,
+  "finish_reason": "completed",
+  "error": null,
+  "meta": {
+    "command": [
+      "/opt/pyvenv/bin/python3",
+      "/tmp/pytest-of-root/pytest-2/test_command_adapter_supports_0/echo_prompt.py",
+      "/tmp/cognition_command_3u6h0ie_/combined_prompt.txt"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "state_trace": [
+      {
+        "state": "BOOTING",
+        "t_ms": 3.05
+      },
+      {
+        "state": "MODEL_LOADING",
+        "t_ms": 2790.23
+      },
+      {
+        "state": "GENERATING",
+        "t_ms": 2790.32
+      },
+      {
+        "state": "COMPLETED",
+        "t_ms": 3108.02,
+        "output_events": 1
+      }
+    ],
+    "stdout_bytes": 55,
+    "stderr_bytes": 0,
+    "first_output_ms": 2790.32,
+    "output_preview": "Quoted prompt with spaces and symbols: [x] {y} 'z' \"q\""
+  },
+  "output_preview": "Quoted prompt with spaces and symbols: [x] {y} 'z' \"q\""
+}
