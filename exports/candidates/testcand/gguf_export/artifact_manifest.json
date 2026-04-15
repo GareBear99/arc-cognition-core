@@ -1,8 +1,8 @@
 {
-  "artifact_id": "gguf_export_b42f8b1a9f60",
+  "artifact_id": "gguf_export_24b8c734e1cf",
   "stage": "gguf_export",
   "candidate": "testcand",
-  "created_at": "2026-04-14T21:36:49.508569+00:00",
+  "created_at": "2026-04-14T22:56:19.086597+00:00",
   "status": "scaffold_ready",
   "execution_mode": "scaffold",
   "notes": "Real GGUF conversion still needs the selected exporter/runtime, but the artifact contract is explicit and versionable.",

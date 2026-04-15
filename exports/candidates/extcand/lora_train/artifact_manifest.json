@@ -1,16 +1,16 @@
 {
-  "artifact_id": "lora_train_9b8da3a1f8d5",
+  "artifact_id": "lora_train_0e0a2c32eca2",
   "stage": "lora_train",
   "candidate": "extcand",
-  "created_at": "2026-04-14T21:36:54.996428+00:00",
+  "created_at": "2026-04-14T22:56:27.617089+00:00",
   "status": "external_completed",
-  "config": "/mnt/data/cc_phase3/cognition-core-github-launch-ready-alpha (2)/configs/training/sft_lora.yaml",
+  "config": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/configs/training/sft_lora.yaml",
   "base_model": "base/test",
   "execution_mode": "external",
   "notes": "External SFT/LoRA command completed successfully.",
   "paths": {
-    "dataset": "/mnt/data/cc_phase3/cognition-core-github-launch-ready-alpha (2)/datasets/distillation_sft/seed_records.jsonl",
-    "expected_checkpoint_dir": "/mnt/data/cc_phase3/cognition-core-github-launch-ready-alpha (2)/exports/candidates/extcand/lora_train/checkpoint"
+    "dataset": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/datasets/distillation_sft/seed_records.jsonl",
+    "expected_checkpoint_dir": "/mnt/data/final_prod/cognition-core-github-launch-ready-alpha (2)/exports/candidates/extcand/lora_train/checkpoint"
   },
   "metrics": {
     "dataset_records": 50
@@ -20,7 +20,7 @@
     "command": [
       "/opt/pyvenv/bin/python3",
       "-c",
-      "from pathlib import Path; Path(r'/tmp/pytest-of-root/pytest-10/test_external_lora_command_wir0/ok.txt').write_text('done', encoding='utf-8')"
+      "from pathlib import Path; Path(r'/tmp/pytest-of-root/pytest-13/test_external_lora_command_wir0/ok.txt').write_text('done', encoding='utf-8')"
     ],
     "returncode": 0,
     "stdout": "",
